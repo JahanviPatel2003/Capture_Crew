@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="header.css"> 
+  <link rel="stylesheet" href="footer.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>About Us</title>
+  <style>
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0; 
+  padding: 0;
+  background-color: rgb(252, 245, 245);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  text-align: center;
+ 
+}
+.header h1{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: #000;
+  font-weight: 700;
+  
+}
+#heading{
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  font-style: italic;
+  padding-bottom: 15px;
+  text-shadow: 1px 2px #999;
+        }
+.header > h1 {
+  margin: 20px 0;
+}
+.header > p {
+  max-width: 520px;
+  margin: auto;
+}
+
+@media (max-width: 443px) {
+  .header > h1 
+  { 
+    font-size: 30px; 
+  }
+}
+.feature-section h2
+{
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  text-shadow:1px 1px #999 ;
+}
+.feature-section p { 
+  color: #555; 
+  text-align: center;
+}
+
+.cards-container {
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+  margin: auto;
+}
+
+@media (min-width: 788px) {
+  .cards-container { 
+    width: 728px;
+  }
+  
+  .cards-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@media (min-width: 1166px) {
+  .cards-container {
+    width: 1106px;
+  }
+}
+[class$='feature-card'] 
+{
+  position: relative;
+  box-sizing: border-box;
+  width: 350px; 
+  height: 250px;
+  margin: 0;
+  padding: 32px;
+  border-radius: 10px;
+  border-top: solid 5px black;
+  box-shadow: 2px 5px 20px rgb(0,0,0,0.1);
+}
+
+[class$='feature-card'] p 
+{ 
+  margin: 0; 
+  padding-bottom: 10px;
+}
+
+[class$='feature-card'][class*='cyan'] 
+{
+  border-color: #45d3d3;
+  height: 169px;
+}
+
+[class$='feature-card'][class*='red'] 
+{
+  border-color: #ea5353;
+  height: 169px;
+}
+
+[class$='feature-card'][class*='orange'] 
+{
+  border-color: #fcaf4a;
+  height: 169px;
+}
+
+[class$='feature-card'][class*='blue'] 
+{
+  border-color: #549ef2;
+  height: 169px;
+}
+
+
+@media (min-width: 788px) {
+  [class$='feature-card'] {
+    float: left;
+  }
+
+  @media (min-width: 1166px) {
+    
+    [class$='feature-card']:first-child {
+      margin: 140px 0;
+    }
+   
+    [class$='feature-card']:nth-child(2),
+    [class$='feature-card']:nth-child(3) {
+      margin: 0 22px;
+    }
+
+    [class$='feature-card']:last-child {
+      margin-top: -110px;
+    }
+
+    [class$='feature-card']:nth-child(3) {
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 1165px) {
+
+    [class$='feature-card']:nth-child(3),
+    [class$='feature-card']:nth-child(4) {
+      margin-top: 30px;
+    }
+
+    [class$='feature-card']:nth-child(2),
+    [class$='feature-card']:nth-child(4) {
+      margin-left: 28px;
+    }
+  }
+}
+
+@media (max-width: 787px) {
+
+  [class$='feature-card'] {
+    width: 300px; 
+    height: 220px;
+    margin: auto;
+  }
+
+  [class$='feature-card']:not(:first-child) {
+    margin-top: 22px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <section class="nav-bar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#">Capture Crew</a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="Login.php">Login</a>
+          </li>
+          <li>
+            <a href="registration.php">Registration</a>
+          </li>
+          <li>
+            <a href="AboutUs.html">About Us</a>
+          </li>
+          <li>
+            <a href="ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="function.js"></script>
+
+  <div class="header">
+    <h1>About Us</h1>
+    <p id="heading">We capture your memories!!</p>
+    <p>We help people to find a photographer as well as to take camera on rent.</p>
+  </div>
+  <div class="feature-section">
+    <h2>Features</h2>
+    <main>
+      <ul class="cards-container">
+        <li class="cyan-feature-card">
+          <p>Easy to find photographer</p>
+        </li>
+
+        <li class="red-feature-card">
+          <p>User can take camera on rent</p>
+        </li>
+
+        <li class="orange-feature-card">
+          <p>User can compare the work of photographer</p>
+        </li>
+
+        <li class="blue-feature-card">
+          <p>User can choose location as per their choice</p>
+        </li>
+      </ul>
+    </main>
+  </div>  
+ 
+  <div class="footer-content"> 
+		<div class="footer">
+			<div class="footer-left">
+				<h3>Capture Crew</h3>
+				<div class="footer-links">
+					<p><a href="index.html">Home</a></p>
+					<p><a href="Feature.html">Feature</a></p>
+					<p><a href="AboutUs.html">About</a></p>
+					<p><a href="ContactUs.html">Contact</a></p>
+				</div>	
+			</div>
+
+			<div class="footer-center">
+				<p class="footer-contact">Contact Us</p>
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Gujarat, India</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p><a href="tel:91-9876543210">+91 9876543210</a></p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:#">abc123@gmail.com</a></p>
+				</div>
+			</div>
+
+			<div class="footer-right">
+				<p class="footer-about">
+					<span>About Us</span>
+					We help people to find a photographer as well as to take camera on rent.
+				</p>
+
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="footer-line">
+				<p>&copy; All Right Reserved</p>
+			</div>
+		</div>
+	</div>  
+</body>
+</html>

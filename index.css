@@ -1,0 +1,817 @@
+#image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 18rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 17rem;
+                margin-left: -4rem;
+                border-radius: 2rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 3rem;
+                margin-left: -3rem;
+                border-radius: 2rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 23rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 5rem;
+            }
+            #header
+            {
+                margin-left: 31rem;
+                font-size: 3rem;
+            }
+            #tag
+            {
+                font-size: 1.5rem;
+                margin-left: 40rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+            }
+            #arrow
+            {
+                margin-left: 8.5rem;
+            }
+
+        /* laptops, desktops and tablets */
+
+        @media(min-width : 1240px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 18rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 17rem;
+                margin-left: -4rem;
+                border-radius: 2rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 3rem;
+                margin-left: -3rem;
+                border-radius: 2rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 23rem;
+                font-size: 22px;
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 5rem;
+            }
+            #header
+            {
+                margin-left: 31rem;
+                font-size: 3rem;
+            }
+            #tag
+            {
+                font-size: 1.5rem;
+                margin-left: 40rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+            }
+            #arrow
+            {
+                margin-left: 8.5rem;
+            }
+
+        }
+        @media(max-width : 1400px) 
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 15rem;
+                margin-left: -6rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 14rem;
+                margin-left: -5rem;
+                border-radius: 2rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 2rem;
+                margin-left: -3rem;
+                border-radius: 2rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 18rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 5rem;
+            }
+            #header
+            {
+                margin-left: 30rem;
+                font-size: 3rem;
+            }
+            #tag
+            {
+                font-size: 1.5rem;
+                margin-left: 32rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+            }
+            #arrow
+            {
+                margin-left: 8.5rem;
+            }
+        }
+        @media(max-width : 1240px) 
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 13rem;
+                margin-left: -6rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 12rem;
+                margin-left: -5rem;
+                border-radius: 2rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 1.5rem;
+                margin-left: -3rem;
+                border-radius: 2rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 16rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 5rem;
+            }
+            #header
+            {
+                margin-left: 25rem;
+                font-size: 3rem;
+            }
+            #tag
+            {
+                font-size: 1.5rem;
+                margin-left: 27rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+            }
+            #arrow
+            {
+                margin-left: 8.5rem;
+            }
+        }
+
+        /* low resolution laptops, landscapes and desktops */
+
+        @media (max-width : 1000px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 12rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 11rem;
+                margin-left: -5rem;
+                border-radius: 2rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -3rem;
+                margin-top: 2rem;
+                margin-left: -4rem;
+                border-radius: 2rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 10rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 5rem;
+            }
+            #header
+            {
+                margin-left: 20rem;
+                font-size: 2.5rem;
+            }
+            #tag
+            {
+                font-size: 1.3rem;
+                margin-left: 25rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+                font-size: 1.2rem;
+            }
+            #arrow
+            {
+                margin-left: 5.3rem;
+            }
+        }
+
+        /* Portrait  */
+
+        @media (max-width : 990px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 10rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 9rem;
+                margin-left: -5rem;
+                border-radius: 2rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 1.5rem;
+                margin-left: -4rem;
+                border-radius: 2rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 10rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 5rem;
+            }
+            #header
+            {
+                margin-left: 20rem;
+                font-size: 1.8rem;
+            }
+            #tag
+            {
+                font-size: 0.8rem;
+                margin-left: 22rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+                font-size: 1.2rem;
+            }
+            #arrow
+            {
+                margin-left: 5.2rem;
+            }
+        }
+        @media (max-width : 811px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 9rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 8rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 1.2rem;
+                margin-left: -4rem;
+                border-radius: 1rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 5rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 4rem;
+            }
+            #header
+            {
+                margin-left: 15.5rem;
+                font-size: 1.8rem;
+            }
+            #tag
+            {
+                font-size: 1rem;
+                margin-left: 16.5rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+                font-size: 1.2rem;
+            }
+            #arrow
+            {
+                margin-left: 5.2rem;
+            }
+        }
+
+        /* smartphones */
+
+        @media (max-width : 600px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+            }
+            #image2
+            {
+                margin-top: 7rem;
+                margin-left: -4rem;
+                border-radius: 1rem;
+            }
+            #image3
+            {
+                margin-top: 6.5rem;
+                margin-left: -5rem;
+                border-radius: 1rem;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 0.7rem;
+                margin-left: -4rem;
+                border-radius: 1rem;
+            }
+            #image2:hover
+            {
+                transform: scale(1.01);
+            }
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 3rem;
+                
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 3rem;
+            }
+            #header
+            {
+                margin-left: 11rem;
+                font-size: 1.4rem;
+            }
+            #tag
+            {
+                font-size: 0.7rem;
+                margin-left: 14rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 1rem;
+                font-size: 1rem;
+            }
+            #arrow
+            {
+                margin-left: 5.2rem;
+                display: none;
+            }
+        }
+
+        /* Other */
+
+        @media (max-width : 576px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+                display: none;
+            }
+            #image2
+            {
+                margin-top: 10rem;
+                margin-left: 0.1rem;
+            }
+            #image3
+            {
+                margin-top: 1rem;
+                margin-left: 0.5rem;
+                border-radius: 1rem;
+                display: none;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 1rem;
+                margin-left: 0.5rem;
+                border-radius: 1rem;
+                display: none;
+            }
+            
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #icon
+            {
+                margin-left: 9rem;
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 5rem;
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 3.5rem;
+            }
+            #header
+            {
+                margin-left: 2rem;
+                font-size: 2.5rem;
+            }
+            #tag
+            {
+                font-size: 1.5rem;
+                margin-left: 4rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 10rem;
+                font-size: 1.3rem;
+            }
+        }
+        @media (max-width : 360px)
+        {
+            #image1
+            {
+                border-radius: 0rem;
+                display: none;
+            }
+            #image2
+            {
+                margin-top: 10rem;
+                margin-left: 0.1rem;
+                /* border-radius: 1rem; */
+            }
+            #image3
+            {
+                margin-top: 1rem;
+                margin-left: 0.5rem;
+                border-radius: 1rem;
+                display: none;
+
+            }
+            #image4,#image5
+            {
+                padding: -1rem;
+                margin-top: 1rem;
+                margin-left: 0.5rem;
+                border-radius: 1rem;
+                display: none;
+            }
+            
+            #image3:hover
+            {
+                transform: scale(1.01);
+            }
+            #image4:hover
+            {
+                transform: scale(1.01);
+            }
+            #image5:hover
+            {
+                transform: scale(1.01);
+            }
+            #icon:hover
+            {
+                transform: scale(1.5);
+            }
+            #icon
+            {
+                margin-left: 9rem;
+            }
+            #nav
+            {
+                position: absolute;
+                text-align: center;
+                margin-left: 3rem;
+            }
+            .logo
+            {
+                position: absolute;
+                margin-top: 3.5rem;
+            }
+            #header
+            {
+                margin-left: 1.5rem;
+                font-size: 2rem;
+            }
+            #tag
+            {
+                font-size: 1.5rem;
+                margin-left: 3rem;
+            }
+            #explore
+            {
+                position: absolute;
+                margin-top: -2rem;
+                color: black;
+                margin-left: 10rem;
+                font-size: 1.3rem;
+            }   
+        }
